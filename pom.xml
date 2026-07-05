@@ -368,6 +368,7 @@
 		<maven-nexus-staging-plugin.version>1.6.8</maven-nexus-staging-plugin.version>
 		<thumbnailator.version>0.4.19</thumbnailator.version>
 		<zxing.version>3.5.3</zxing.version>
+		<zxing-extension.version>1.0.x.20260630-SNAPSHOT</zxing-extension.version>
 	</properties>
 
 	<dependencyManagement>
@@ -393,17 +394,11 @@
 				<artifactId>thumbnailator</artifactId>
 				<version>${thumbnailator.version}</version>
 			</dependency>
-	 		<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+			<!-- https://github.com/hiwepy/zxing-extension -->
 			<dependency>
-			    <groupId>com.google.zxing</groupId>
-			    <artifactId>core</artifactId>
-			    <version>${zxing.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
-			<dependency>
-			    <groupId>com.google.zxing</groupId>
-			    <artifactId>javase</artifactId>
-			    <version>${zxing.version}</version>
+				<groupId>io.github.hiwepy</groupId>
+				<artifactId>zxing-extension</artifactId>
+				<version>${zxing-extension.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -483,15 +478,10 @@
 			<groupId>net.coobird</groupId>
 			<artifactId>thumbnailator</artifactId>
 		</dependency>
- 		<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+ 		<!-- https://github.com/hiwepy/zxing-extension -->
 		<dependency>
-		    <groupId>com.google.zxing</groupId>
-		    <artifactId>core</artifactId>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
-		<dependency>
-		    <groupId>com.google.zxing</groupId>
-		    <artifactId>javase</artifactId>
+			<groupId>io.github.hiwepy</groupId>
+			<artifactId>zxing-extension</artifactId>
 		</dependency>
 
 	</dependencies>
