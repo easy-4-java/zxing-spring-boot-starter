@@ -373,6 +373,7 @@
 		<commons-text.version>1.12.0</commons-text.version>
 		<thumbnailator.version>0.4.19</thumbnailator.version>
 		<zxing.version>3.5.3</zxing.version>
+		<zxing-extension.version>3.0.x-SNAPSHOT</zxing-extension.version>
 	</properties>
 
 	<dependencyManagement>
@@ -390,23 +391,17 @@
 			
 			
 			
-			<dependency>
-				<groupId>net.coobird</groupId>
-				<artifactId>thumbnailator</artifactId>
-				<version>${thumbnailator.version}</version>
-			</dependency>
-	 		
-			<dependency>
-			    <groupId>com.google.zxing</groupId>
-			    <artifactId>core</artifactId>
-			    <version>${zxing.version}</version>
-			</dependency>
-			
-			<dependency>
-			    <groupId>com.google.zxing</groupId>
-			    <artifactId>javase</artifactId>
-			    <version>${zxing.version}</version>
-			</dependency>
+<dependency>
+					<groupId>net.coobird</groupId>
+					<artifactId>thumbnailator</artifactId>
+					<version>${thumbnailator.version}</version>
+				</dependency>
+				<!-- https://github.com/hiwepy/zxing-extension -->
+				<dependency>
+					<groupId>io.github.hiwepy</groupId>
+					<artifactId>zxing-extension</artifactId>
+					<version>${zxing-extension.version}</version>
+				</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -485,15 +480,10 @@
 			<groupId>net.coobird</groupId>
 			<artifactId>thumbnailator</artifactId>
 		</dependency>
- 		
+ 		<!-- https://github.com/hiwepy/zxing-extension -->
 		<dependency>
-		    <groupId>com.google.zxing</groupId>
-		    <artifactId>core</artifactId>
-		</dependency>
-		
-		<dependency>
-		    <groupId>com.google.zxing</groupId>
-		    <artifactId>javase</artifactId>
+			<groupId>io.github.hiwepy</groupId>
+			<artifactId>zxing-extension</artifactId>
 		</dependency>
 
 	</dependencies>
