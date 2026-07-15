@@ -1,5 +1,6 @@
 package com.google.zxing.spring.boot;
 
+import com.google.zxing.ZxingBarCodeTemplate;
 import org.junit.FixMethodOrder;
 import org.junit.runners.MethodSorters;
 

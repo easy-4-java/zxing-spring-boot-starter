@@ -26,8 +26,8 @@ import javax.imageio.ImageIO;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
-import com.google.zxing.spring.boot.utils.BitMatrixUtils;
-import com.google.zxing.spring.boot.utils.ImageUtils;
+import com.google.zxing.utils.BitMatrixUtils;
+import com.google.zxing.utils.ImageUtils;
 
 public class MatrixToImageWriter {
 	private static final int LOGO_WIDTH = 64;

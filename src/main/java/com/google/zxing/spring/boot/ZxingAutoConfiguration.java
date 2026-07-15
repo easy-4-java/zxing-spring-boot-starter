@@ -1,5 +1,8 @@
 package com.google.zxing.spring.boot;
 
+import com.google.zxing.ZxingAztecCodeTemplate;
+import com.google.zxing.ZxingBarCodeTemplate;
+import com.google.zxing.ZxingQrCodeTemplate;
 import org.springframework.beans.BeansException;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

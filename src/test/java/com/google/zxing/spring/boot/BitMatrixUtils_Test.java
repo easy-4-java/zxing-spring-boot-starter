@@ -4,7 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-import com.google.zxing.spring.boot.utils.BitMatrixUtils;
+import com.google.zxing.ZxingQrCodeTemplate;
+import com.google.zxing.utils.BitMatrixUtils;
 
 import junit.framework.TestCase;
 import net.coobird.thumbnailator.Thumbnails;

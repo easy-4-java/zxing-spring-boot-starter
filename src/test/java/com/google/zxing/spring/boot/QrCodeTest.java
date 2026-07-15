@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 
 import javax.imageio.ImageIO;
 
+import com.google.zxing.ZxingQrCodeTemplate;
 import junit.framework.TestCase;
 
 public class QrCodeTest extends TestCase {
