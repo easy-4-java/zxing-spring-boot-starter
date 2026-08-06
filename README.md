@@ -25,7 +25,7 @@
 
 ``` xml
 <dependency>
-	<groupId>com.github.hiwepy</groupId>
+	<groupId>io.github.hiwepy</groupId>
 	<artifactId>zxing-spring-boot-starter</artifactId>
 	<version>${project.version}</version>
 </dependency>
